@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import MainBlock from './components/MainBlock/MainBlock';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Marvelous Marvel Questionnaire</h1>
+      <br/>
+      <h2>Can you answer all the questions and prove yourself a Marvel superfan?</h2>
+      <br/>
+      <MainBlock/>
     </div>
   );
 }
