@@ -1,0 +1,27 @@
+.MainBlock {
+    width: 600px;
+    outline: 1px solid black;
+    border-radius: 20px;
+}
+
+.Answer {
+    outline: 1px solid black;
+}
+
+.AnswerBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.AnswerRowOne, .AnswerRowTwo {
+    height: 45%;
+}
+
+.BottomBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0px 30px 20px 30px;
+}

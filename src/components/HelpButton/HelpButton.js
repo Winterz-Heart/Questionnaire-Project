@@ -1,7 +1,9 @@
+import './HelpButton.css'
+
 function HelpButton() {
     return (
-        <div>
-            <p>Help Button goes here</p>
+        <div className='HelpButton'>
+            <p>Help</p>
         </div>
     )
 }

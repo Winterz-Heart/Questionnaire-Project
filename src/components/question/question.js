@@ -1,7 +1,9 @@
+import './Question.css'
+
 function Question() {
     return(
-        <div>
-            <h4>This is where the question wil go?</h4>
+        <div className='Question'>
+            <p>This is where the question will go?</p>
         </div>
     )
 }

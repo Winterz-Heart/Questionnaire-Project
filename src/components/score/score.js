@@ -1,7 +1,7 @@
 function Score() {
     return (
         <div>
-            <p>Score goes here</p>
+            <p>Score</p>
         </div>
     )
 }

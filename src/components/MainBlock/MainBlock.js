@@ -3,19 +3,27 @@ import Answer from "../AnswerButton/AnswerButton";
 import HelpButton from "../HelpButton/HelpButton";
 import Score from "../Score/Score";
 import SubmitNextButton from "../SubmitNextButton/SubmitNextButton";
+import './MainBlock.css'
 
 function MainBlock() {
     return (
-        <div>
-            <h3>Main block</h3>
+        <div className="MainBlock">
             <Question />
-            <Answer />
-            <Answer />
-            <Answer />
-            <Answer />
-            <HelpButton />
-            <Score/>
-            <SubmitNextButton />
+            <div className="AnswerBlock">
+                <div className="AnswerRowOne">
+                    <Answer />
+                    <Answer />
+                </div>
+                <div className="AnswerRowTwo">
+                    <Answer />
+                    <Answer />
+                </div>
+            </div>
+            <div className="BottomBar">
+                <HelpButton />
+                <Score/>
+                <SubmitNextButton />
+            </div>
         </div>
     )
 }
