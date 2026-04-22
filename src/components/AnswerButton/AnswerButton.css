@@ -8,3 +8,8 @@
 
     margin-bottom: 20px;
 }
+
+.Answer.selected {
+    background-color: black;
+    color: white;
+}
