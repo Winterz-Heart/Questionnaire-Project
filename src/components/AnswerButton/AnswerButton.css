@@ -13,3 +13,13 @@
     background-color: black;
     color: white;
 }
+
+.Answer.correct {
+    background-color: #4caf50;
+    color: white;
+}
+
+.Answer.incorrect {
+    background-color: #f44336;
+    color: white;
+}

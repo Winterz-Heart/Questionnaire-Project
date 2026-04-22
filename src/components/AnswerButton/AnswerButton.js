@@ -3,9 +3,9 @@ import './AnswerButton.css'
 
 class Answer extends React.Component {
     render() {
-        const { answer, onSelect, isSelected } = this.props;
+        const { answer, onSelect, isSelected, status } = this.props;
         return (
-            <div className={`Answer${isSelected ? ' selected' : ''}`} onClick={() => onSelect(answer)}>
+            <div className={`Answer${isSelected ? ' selected' : ''}${status ? ' ' + status : ''}`} onClick={() => onSelect(answer)}>
                 <p>{answer}</p>
             </div>
         )
