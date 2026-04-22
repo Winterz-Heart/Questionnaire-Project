@@ -3,7 +3,7 @@ import './HelpButton.css'
 function HelpButton() {
     return (
         <div className='HelpButton'>
-            <p>Help</p>
+            <p className='Help'>Help</p>
         </div>
     )
 }

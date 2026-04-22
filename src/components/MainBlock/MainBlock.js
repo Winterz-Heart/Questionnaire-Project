@@ -21,7 +21,7 @@ function MainBlock() {
             </div>
             <div className="BottomBar">
                 <HelpButton />
-                <Score/>
+                <Score />
                 <SubmitNextButton />
             </div>
         </div>
