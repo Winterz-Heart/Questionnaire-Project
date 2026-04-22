@@ -1,11 +1,15 @@
+import React from 'react';
+
 import './SubmitNextButton.css'
 
-function SubmitNextButton() {
-    return (
-        <div className='SubmitNextButton'>
-            <p>Submit</p>
-        </div>
-    )
+class SubmitNextButton extends React.Component {
+    render() {
+        return (
+            <div className='SubmitNextButton'>
+                <p>Submit</p>
+            </div>
+        )
+    }
 }
 
 export default SubmitNextButton;
